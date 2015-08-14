@@ -1,0 +1,74 @@
+body
+{
+  font-family: 'Roboto', sans-serif !important;
+  background: url("http://www.softimageblog.com/userContent/hbardak/colorspaces/0001WM_diff.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.crop 
+{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.crop img 
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    box-shadow: 10px 10px 5px #888888;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.crop img:hover
+{
+   transform: scale(1.1);
+}
+
+.photos div p
+{
+  width: 400px;
+  height: 200px;
+}
+
+.photos
+{
+  margin: 20px;
+}
+
+.text
+{
+  width: 400px;
+  height: 200px;
+}
+
+h2
+{
+  color: #000080 !important;
+}
+
+.box
+{
+  box-sizing: border-box;
+  background-color: rgba(187, 221, 251, 0.7);
+  border-radius: 20px;
+  margin: 10px;
+  width: 48% !important;
+  float: left;
+}
+
+.row:after
+{
+  content: "";
+  display: block;
+  clear: both;
+}
