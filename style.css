@@ -72,3 +72,14 @@ h2
   display: block;
   clear: both;
 }
+
+.marked
+{
+  text-decoration: line-through;
+}
+
+.highlighted
+{
+  border: 5px solid #0D47A1;
+  border-radius: 10px;
+}

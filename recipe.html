@@ -5,6 +5,8 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic' rel='stylesheet' type='text/css'>
 
   <!-- Latest compiled and minified CSS -->
@@ -15,6 +17,8 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="script.js"></script>
 
 </head>
 <body>
@@ -34,10 +38,11 @@
     <div class="col-md-6 box">
       <h2 class="text-center">Ingredients</h2>
       <h3 class="text-center">Yield: 12 empanadas.</h3>
-      <ul>
+      <p class="text-center">Click the ingredient to mark it after you buy it.</p>
+      <ul class="ingredients">
         <li>
           <strong>Dough:</strong>
-          <ul>
+          <ul class="ingredients">
             <li>2 1/2 cup (290 g) corn flour</li>
             <li>3/4 teaspoon salt</li>
             <li>3/4 cup warm water (plus a splash or two of water)</li>
@@ -46,7 +51,7 @@
         </li>
         <li>
           <strong>Simple Tomato Aji:</strong>
-          <ul>
+          <ul class="ingredients">
             <li>3 ripe-vine tomatoes, de-seeded and diced</li>
             <li>1 shallot, minced</li>
             <li>1 serrano pepper, de-seeded and diced</li>
@@ -57,7 +62,7 @@
         </li>
         <li>
           <strong>Empanadas:</strong>
-          <ul>
+          <ul class="ingredients">
             <li>1 medium russett potato, peeled and diced</li>
             <li>Olive Oil</li>
             <li>1 shallot, diced</li>
@@ -75,7 +80,8 @@
     </div>
     <div class="col-md-6 box">
       <h2 class="text-center">Directions</h2>
-      <ul>
+      <p class="text-center">Clicking on an item let's you keep your place on the directions while you cook. Try it!</p>
+      <ul class="directions">
         <strong>Dough:</strong>
         <li>In a medium bowl, mix together the corn flour and salt. Create a well in the center and pour in the water and olive oil. Mix until dough forms a ball. If the dough is on the drier side, add a splash or two of water until the dough feels moist and pliable. Wrap the ball of dough with plastic wrap and allow to rest on the kitchen counter for <strong>15 to 20 minutes</strong>. Meanwhile, make the aji and filling.</li>
         <strong>Aji:</strong>
